@@ -5,122 +5,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
     <title>Jungway</title>
 </head>
 
 <body>
-    <header id="header">
-            <a href="index.html">
-                <h1 id="logo"><span id="logo-part1">Jung</span><span id="logo-part2">way</span></h1>
-            </a>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about-jung">About</a></li>
-                <li><a href="#jung-works">Resources</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+    <header>
+        <a href="index.html">
+            <h1 id="logo"><span id="logo-part1">Jung</span><span id="logo-part2">way</span></h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#about-jung">About</a>
+                </li>
+                <li>
+                    <a href="#resources">Resources</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Us</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i> </a>
+                </li>
             </ul>
         </nav>
     </header>
-    <section>
-    <div id="hero">
-         <div id="hero-overlay">
-         <div id="cover-text">
-             <h1>Learn The Jungway <br> to <br> Embrace your shadow</h1>
-         </div>
-        </div>
-    </div>
-    </section>
-    <section>
-    <div id="about-jung">
-        <div id="jung-bio">
-            <div id="jung-bio-bg">
-        <h2>Carl Gustav Jung</h2>
-        <p>Carl Gustav Jung was a Swiss psychiatrist and psychoanalyst who founded analytical psychology. 
-            Jung's work has been influential in the fields of psychiatry, anthropology, archaeology, literature, philosophy, psychology and religious studies. 
-            Jung worked as a research scientist at the famous Burghölzli hospital, under Eugen Bleuler. 
-            During this time, he came to the attention of Sigmund Freud, the founder of psychoanalysis. 
-            The two men conducted a lengthy correspondence and collaborated, for a while, on a joint vision of human psychology.
-            </p>
-            <p>Jung was born on 26 July 1875 and died at the age of 86 on 6 June 1961.</p>
-       </div>
-      </div>
-         <div id="jung-way">
-       <h2>Jungian Psychology</h2>
-       <p> Jungian psychology is different from other approaches to psychology.</p>
-        </div>
-       </div>
-    </section>
-    <section>
-     <div id="jung-works">
-        <div id="jung-own-works">
-            <h2>Jungian Psychology</h2>
-            <p> Jungian psychology is different from other approaches to psychology.</p>
+
+    <!-- Hero image section -->
+    <section id="hero">
+        <div id="hero-image">
+            <div id="hero-text">
+                <h2>Learn The Jungway <br> to <br> Embrace your shadow</h2>
             </div>
-         <div id="jung-scholars">
-            <div id="jung-scholars-bg">
-            <h2>Carl Gustav Jung</h2>
-            <p>Carl Gustav Jung was a Swiss psychiatrist and psychoanalyst who founded analytical psychology. 
-                Jung's work has been influential in the fields of psychiatry, anthropology, archaeology, literature, philosophy, psychology and religious studies. 
-                Jung worked as a research scientist at the famous Burghölzli hospital, under Eugen Bleuler. 
-                During this time, he came to the attention of Sigmund Freud, the founder of psychoanalysis. 
-                The two men conducted a lengthy correspondence and collaborated, for a while, on a joint vision of human psychology.
-                </p>
-                <p>Jung was born on 26 July 1875 and died at the age of 86 on 6 June 1961.</p>
-           </div>
         </div>
-    </div>
     </section>
-</div>
-    <section id="contact">
-        <div class="contact-container">
-            <div class="contact-left">
-                <h2>Your comments or questions are welcome!</h2>
-                <p>
-                  Do you have any questions or comments? Feel free to fill in this form and send us. We will get back to you soon.
+
+    <!-- About section -->
+    <section id="about-jung">
+        <div class="jung-bio">
+            <div class="bio-heading">
+                <h2>Carl Gustav Jung (1875-1961)</h2>
+            </div>
+                <p> Carl Gustav Jung was a Swiss psychiatrist and psychoanalyst who founded and can be thought of as
+                    the father of analytical psychology. He was born on 26 July 1875 and died at the age of 86 on 6
+                    June 1961.
+                    The influence of Jung's work is not limited to psychology. It permeates the fields of
+                    psychiatry, anthropology, archaeology, literature, philosophy, and even religious studies.
                 </p>
-              </div>
-            <form action="#" onSubmit="alert('Thank you for your feedback.');">
-              <label for="fname">Name</label>
-              <input id="fname" class="input" type="text" name="first_name" required />
-              <label for="email">Email Address</label>
-              <input id="email" class="input" type="email" name="email_address" required />
-              <label for="message">Your message here</label>
-              <textarea name="message" id="message" cols="50" rows="10" required></textarea>
-              <input type="submit" value="Send" class="form-btn" />
-            </form>
-          </div>
+                <button><a href="about.html">Jung's Bio<i class="fas fa-arrow-alt-circle-right"></i></a></button>
+            </div>
+            <div class="jung-ideas">
+                <div class="ideas-heading">
+                  <h2>Key Ideas in Jugian Psychology</h2>
+                </div>
+                <p> Jung founded analytical psychology. Common related terms are depth psychology and Jungian
+                    analysis. The key features of this approach are that the human psyche has both the conscious and
+                    unconscious elements and that by integrating the two a balanced psychological condition can be
+                    achieved. The fact that the unconscious is unconscious makes it difficult if not impossible to
+                    deal with it. Jungian analysis, however, uses symbols and feeling functions to tap into the
+                    message that the unconscious tried to send. The goal is what Jung called individuation, the full
+                    realization of one's potential.
+                    The following are key concepts and ideas in Jungian analysis. Have them for the journey ahead.
+                </p>
+                <button><a href="ideas.html">Jung's Ideas<i
+                            class="fas fa-arrow-alt-circle-right"></i></a></button>
+            </div>
     </section>
+
+    <!-- Resources section -->
+    <section id="resources">
+        <h2>Resources about Jungian Psychology</h2>
+        <div class="resource-box">
+            <iframe width="480" height="360" src="https://www.youtube.com/embed/2AMu-G51yTY" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+        <div class="resource-box">
+            <h3>Find Jung via</h3>
+           <ul>
+               <li>Books</li>
+               <li>Videos</li>
+               <li>Podcasts</li>
+               <li>Trainig centers</li>
+               <li>Jungian scholars</li>
+           </ul> 
+            <button>
+                <a href="resources.html">
+                Dive in<i class="fas fa-arrow-alt-circle-right"></i>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div id="contact-form">
+            <h2>Your questions and comments are always welcome!</h2>
+            <form action="#" onSubmit="alert('Thank you for your feedback.');">
+                <label for="fname">Name</label>
+                <input id="fname" class="input" type="text" name="first_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="input" type="email" name="email_address" required />
+                <label for="message">Your message here</label>
+                <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                <input type="submit" value="Send" class="form-btn" />
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div id="footer1">
-           <ul class="social">
-               <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-               <li><a href="https://twitter.com" target="_blank" rel="noopener"
-                aria-label="Follow us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-            </li>
-               <li><a href="https://instagram.com" target="_blank" rel="noopener"
-                aria-label="Find us on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-               <li><a href="https://youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-            </li>
-           </ul>
+            <ul class="social">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fab fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Follow us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Find us on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube channel (opens in a new tab)"><i
+                            class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
         </div>
         <div id="footer2">
-           <div>
-           </div> 
-           <div id="terms">
-           Terms and Conditions
+            <div id="terms">
+                Terms and Conditions
+            </div>
+            <div><a href="index.html">Copyright &copy; Jungway (Code Institute Student Project)</a></div>
         </div>
-        <div><a href="index.html">Copyright &copy; Jungway (Code Institute Student Project)</a></div>
-       </div>
     </footer>
+
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/1334675705.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
