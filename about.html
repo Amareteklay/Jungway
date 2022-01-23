@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
+    <title>About Jung</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo"><span id="logo-part1">Jung</span><span id="logo-part2">way</span></h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="resources.html">Resources</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Us</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i> </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero image section -->
+    <section id="hero">
+        <div id="hero-image">
+            <div id="hero-text">
+                <h2>Carl Gustav Jung <br> A Short Bio</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article -->
+    <section class="article">
+        <h2>Carl Gustav Jung (1875-1961)</h2>
+        <p>Carl Gustav Jung was a Swiss psychiatrist and psychoanalyst who founded and can be thought of as the father
+            of analytical psychology. He was born on 26 July 1875 and died at the age of 86 on 6 June 1961.
+            The influence of Jung's work is not limited to psychology. It permeates the fields of psychiatry,
+            anthropology, archaeology, literature, philosophy, and even religious studies.
+        </p>
+        <p>
+            Jung and Sigmund Freud met in 1907 when the former worked as a research scientist at the famous Burghölzli
+            hospital. Freud was the founder of psychoanalysis.
+            The two men remained friends and had correspondence and collaboration for five years. With the publication
+            of Jung's "Psychology of the Unconscious,"" came their inevitable break up.
+        </p>
+        <p>
+            To Jung, the human psyche exists in three parts:
+        </p>
+        <ul>
+            <li>The conscious mind (the ego, a term that Freud popularized)</li>
+            <li>The personal unconscious, and</li>
+            <li>The collective unconscious (this marks one of the clear differences between Jung and Freud)</li>
+        </ul>
+        <p> In addition to their different conceptions of the unconscious, Jung and Freud did not agree on the
+            interpretation of dreams. Sex and sexuality, and religion and mysticism were also other sources of
+            divergence and disagreements between their visions of human psychology. Unlike Freud, Jung believed for
+            example that the libido was not just sexual energy but rather a form of psychic energy, which means it has a
+            potential to be embodied in other ways than just sex. </p>
+        <p> Jung was known for his immense knowledge in mythology, religion and philosophy and deep understanding of
+            human symbols as in the traditions such as Alchemy, Kabala, Buddhism and Hinduism. He believed that “humans
+            experienced the unconscious through numerous symbols encountered in various aspects of life such as dreams,
+            art, and religion.”
+        </p>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div id="contact-form">
+            <h2>Your questions and comments are always welcome!</h2>
+            <form action="#" onSubmit="alert('Thank you for your feedback.');">
+                <label for="fname">Name</label>
+                <input id="fname" class="input" type="text" name="first_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="input" type="email" name="email_address" required />
+                <label for="message">Your message here</label>
+                <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                <input type="submit" value="Send" class="form-btn" />
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer1">
+            <ul class="social">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Follow us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Find us on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="footer2">
+            <div>
+            </div>
+            <div id="terms">
+                Terms and Conditions
+            </div>
+            <div><a href="index.html">Copyright &copy; Jungway (Code Institute Student Project)</a></div>
+        </div>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/1334675705.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
