@@ -81,7 +81,7 @@ nav ul li {
   color: #ececf1;
 }
 
-nav .icon {
+.icon {
   display: none;
 }
 
@@ -352,7 +352,11 @@ i {
 /* For Tablets */
 
 @media screen and (max-width: 1024px){
-#about-jung {
+
+  a.icon {
+    display: none;
+  }
+  #about-jung {
   width: 65%;
   height: 900px;
   margin: 0 auto;
@@ -385,16 +389,17 @@ i {
 /* For low resolution  Tablets, Ipads */
 
 @media screen and (max-width: 767px) {
-  body {
-      background-color: yellow;
-  }
   #menu {
     display: none;
   }
 
-  nav .icon {
-    float: right;
+  a.icon {
+    padding-right: 20px;
+    color: #f5f5f5;
     display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   
   #hero {
@@ -408,9 +413,9 @@ i {
 /* For Mobile Devices */
 
 @media (max-width: 480px) {
-  body {
-      background-color: red;
-  }
+  nav ul {
+    float: none;
+  } 
   p {
     font-size: 1.125em;
     padding-top: 0;
@@ -459,26 +464,21 @@ form label {
 
 
 @media screen and (max-width: 600px) {
-  .topnav li:not(:first-child) {
-    display: none;
-  }
-
-  .topnav a.icon {
-    float: right;
+  
+  a.icon {
+    padding-right: 20px;
+    color: #f5f5f5;
     display: block;
-  }
-
-  .topnav.responsive {
-    position: relative;
-  }
-
-  .topnav.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
 
-  .topnav.responsive li {
+  .responsive {
+    position: relative;
+  }
+
+  .responsive li {
     float: none;
     display: block;
     text-align: left;
