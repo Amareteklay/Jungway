@@ -53,6 +53,7 @@ I have deployed this website via GitHub pages.
 ### Acknowledgements
 - 
 - The layout of this documentation was adapted from [MAN95-dev] (https://github.com/MAN95-dev/milestone-project-1/blob/master/README.md)
+- Code for border shadow was taken from https://jungchicago.org/store/index.php?route=information/information&information_id=32
 
 ### Disclaimer
 

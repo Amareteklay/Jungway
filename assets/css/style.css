@@ -19,19 +19,14 @@ h2 {
   letter-spacing: 2px;
 }
 
-#menu,
-#logo {
-  line-height: 50px;
-}
-
 header {
   background-color: #264143;
   display: block;
   font-family: Oswald, sans-serif;
   font-weight: 300;
-  line-height: 75px;
   position: fixed;
   width: 100%;
+  line-height: 75px;
   z-index: 5;
 }
 
@@ -152,10 +147,7 @@ p {
   font-size: 1.15em;
   font-weight: 400;
   padding-top: 10px;
-}
-
-#about-jung p {
-  padding-bottom: 20px;
+  line-height: 1.6;
 }
 
 .jung-ideas {
@@ -167,26 +159,27 @@ p {
 
 button {
   padding: 10px;
-  background-color: #006e1e;
-  color: #ffffff;
+  background-color: #ececf1;
+  border: #006e1e 2px solid;
+  color: #006e1e;
   margin-top: 20px;
   margin-bottom: 75px;
-  font-size: 1.5em;
-  border-radius: 15px;
+  font-size: 1.1em;
+  border-radius: 10px;
   text-align: center;
 }
 .link-btn:hover {
   transition: ease-in 150ms;
   cursor: pointer;
   background-color: #006e1e;
-  opacity: 0.6;
+  color: #ffffff;
 }
 /* Resources */
 #resources {
   background-color: rgba(38, 65, 67, 0.25);
   height: 600px;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 75px;
   position: relative;
 }
 
@@ -230,7 +223,7 @@ button {
   height: 600px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 75px;
   position: relative;
 }
 
@@ -243,18 +236,19 @@ button {
 
 #contact-form {
   /*background-color: rgb(2, 95, 95);*/
-  background-color: #006e1e;
+  background-color: hsl(136, 100%, 22%);
   margin: 0 auto;
   padding-right: 10px;
   width: 65%;
   z-index: 1;
   border-radius: 15px;
   opacity: 0.75;
+  margin-bottom: 30px;
 }
 
 form {
   max-width: 750px;
-  padding: 30px 20px 30px 75px;
+  padding: 5px 20px 30px 75px;
 
 }
 
@@ -277,7 +271,7 @@ textarea {
 
 textarea {
   min-width: 150px;
-  min-height: 75px;
+  min-height: 45px;
 }
 
 .form-btn {
@@ -329,8 +323,8 @@ footer {
 }
 
 i {
-  font-size: 1.5em;
-  margin-left: 30px;
+  font-size: 1.1em;
+  margin-left: 10px;
 }
 
 #terms {
@@ -349,6 +343,7 @@ i {
 .article p {
   font-weight: 300;
   padding-top: 10px;
+  line-height: 1.6;
 }
 
 .article ul {
@@ -364,12 +359,15 @@ i {
 
 blockquote {
   display: block;
-  background-color: rgba(0, 110, 30, 0.3);
+  background-color: rgba(0, 110, 30, 0.2);
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
   border-left: #006e1e 10px solid;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px 2px rgb(0 0 0 / 30%);
+  transition: 0.3s;
 }
 blockquote :nth-child(1){
   font-size: 1.55em;
@@ -381,13 +379,32 @@ blockquote :nth-child(2){
 }
 .subarticle hr {
   width: 100%;
-  height: 1px;
+  height: 2px;
   margin: auto;
   margin-top: 30px;
   clear: both;
   background-color: #006e1e;
   opacity: 0.5;
 }
+.subarticle {
+  background-color: rgba(0, 110, 30, 0.2);
+  width: 100%;
+  box-shadow: 2px 4px 8px 2px rgb(0 0 0 / 30%);
+  transition: 0.3s;
+ margin: 10px 20px;
+}
+.subarticle p, 
+.subarticle h3, 
+.subarticle ul, 
+.subarticle iframe) {
+  padding: 20px 30px;
+  line-height: 1.6;
+}
+.subarticle li {
+  line-height: 1.1em;
+  padding-top: 15px;
+}
+
  /* Media Queries */ 
 
 /* For Tablets */
@@ -411,7 +428,7 @@ blockquote :nth-child(2){
 #resources {
   background-color: inherit;
   padding-top: 0;
-  height: 900px;
+  height: auto;
   width: 65%;
   margin: 0 auto;
 }
@@ -420,7 +437,13 @@ blockquote :nth-child(2){
   float: left;
   padding: 0;
 }
-
+#resources button {
+  margin-top: 0px;
+}
+#contact {
+  height: auto;
+  overflow: hidden;
+}
 #terms {
   float: inherit;
   padding: 10px;
@@ -449,6 +472,21 @@ blockquote :nth-child(2){
   #hero-text {
     display: none;
   }
+  .subarticle hr {
+    display: none;
+  }
+  #contact {
+    padding-top: 20px;
+  }
+  #contact-form h2 {
+  padding: 10px;
+}
+form {
+  padding: 30px;
+}
+form label {
+  font-size: 1.125em;
+}
 }
 
 /* For Mobile Devices */
@@ -485,6 +523,9 @@ blockquote :nth-child(2){
   #resources h2 {
     font-size: 0.985em;
   }
+  .subarticle hr {
+    display: none;
+  }
   #contact {
     padding-top: 20px;
   }
@@ -502,7 +543,6 @@ form label {
   font-size: small;
 }
 }
-
 
 @media screen and (max-width: 600px) {
   
