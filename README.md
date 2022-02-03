@@ -42,7 +42,10 @@ I have deployed this website via GitHub pages.
 ## Credits
 
 ### Content
-- 
+- https://jungplatform.com/jungian-terms
+- https://www.chalquist.com/jungian-terms
+- https://en.wikipedia.org/wiki/Jungian_archetypes
+- https://www.google.com/search?q=what+is+collective+unconscious&oq=what+is+collective+unconscious+&aqs=chrome..69i57j0i20i263i512l2j0i512j0i22i30l6.9627j0j7&sourceid=chrome&ie=UTF-8
 
 ### Media
 - 
@@ -50,3 +53,7 @@ I have deployed this website via GitHub pages.
 ### Acknowledgements
 - 
 - The layout of this documentation was adapted from [MAN95-dev] (https://github.com/MAN95-dev/milestone-project-1/blob/master/README.md)
+
+### Disclaimer
+
+All links to commercial outlets such as books on Amazon have been chosen based solely on relevance and for the purpose of this project only. I have no intention whasoever to promote certain works and compel users to purchase using the links provided. Nor do I have any incentive to do so. Any decision to buy books or sign up for courses following the links provided will be upto the beholder.
