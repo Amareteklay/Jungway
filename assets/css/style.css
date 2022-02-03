@@ -396,7 +396,7 @@ blockquote :nth-child(2){
 .subarticle p, 
 .subarticle h3, 
 .subarticle ul, 
-.subarticle iframe) {
+.subarticle iframe {
   padding: 20px 30px;
   line-height: 1.6;
 }
