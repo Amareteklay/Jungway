@@ -132,6 +132,7 @@ a {
   overflow: hidden;
   float: left;
   width: 50%;
+  height: 100%;
   padding: 30px 20px 10px 45px;
 }
 
@@ -142,6 +143,7 @@ a {
 }
 #about-jung ul {
   padding-left: 20px;
+  margin-bottom: 30px;
 }
 p {
   font-size: 1.15em;
@@ -153,17 +155,16 @@ p {
 .jung-ideas {
   padding: 30px 45px 10px 30px;
   width: 49%;
+  height: 100%;
   float: right;
   flex-grow: 1;
 }
 
-button {
+.link-btn {
   padding: 10px;
   background-color: #ececf1;
   border: #006e1e 2px solid;
   color: #006e1e;
-  margin-top: 20px;
-  margin-bottom: 75px;
   font-size: 1.1em;
   border-radius: 10px;
   text-align: center;
@@ -202,18 +203,22 @@ button {
 
 .resource-box iframe {
   display: block;
+  border: 0;
   margin: 0 auto;
   padding-top: 10px;
 }
 
-.resource-box li {
+.resource-box ul {
   list-style: none;
   padding-top: 10px;
+  margin-bottom: 30px;
+}
+.resource-box li {
+  padding-top: 20px;
 }
 
-#resources button {
-  margin-top: 60px;
-  margin-left: 0;
+#resources a.link-btn {
+    margin-left: 45px;
 }
 
 /* Contact */
