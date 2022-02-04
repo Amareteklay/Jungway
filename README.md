@@ -14,6 +14,7 @@ External links open in new tabs. So users do not get interrupted from what they 
 - As a user, I want to follow Jungway in different social media.
 
 #### Wire Frames
+Desktop Layout ![Desktop](/assets/wireframes/desktop-layout.png)
 
 
 ### Scope 
@@ -31,8 +32,11 @@ External links open in new tabs. So users do not get interrupted from what they 
  - The project uses **CSS3** to style all content.  
 - JavaScript
     - The project uses **JavaScript** for interactivity.
-## Testing
+## Testing and validation
+I used W3C to validate my HTML and CSS code and there are no errors or warnings for all pages. I have conducted lighthouse test and the performance, accessibility, best practices and SEO scores are well above 90 (see image below).
 
+Lighthouse report
+[Lighthouse report](./assets/images/lighthouse-report.jpg)
  
 
 ## Deployment
