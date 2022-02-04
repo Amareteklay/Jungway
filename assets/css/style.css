@@ -26,7 +26,7 @@ header {
   font-weight: 300;
   position: fixed;
   width: 100%;
-  line-height: 75px;
+  line-height: 60px;
   z-index: 5;
 }
 
@@ -356,6 +356,14 @@ i {
   text-align: center;
   padding: 20px;
 }
+.article a,
+.resource-box a {
+  color: rgb(83, 83, 216);
+}
+.article a:hover,
+.resource-box a:hover {
+  color: lightsalmon;
+}
 
 blockquote {
   display: block;
@@ -381,9 +389,8 @@ blockquote :nth-child(2){
   width: 100%;
   height: 2px;
   margin: auto;
-  margin-top: 30px;
   clear: both;
-  background-color: #006e1e;
+  background-color: lightsalmon;
   opacity: 0.5;
 }
 .subarticle {
@@ -391,7 +398,10 @@ blockquote :nth-child(2){
   width: 100%;
   box-shadow: 2px 4px 8px 2px rgb(0 0 0 / 30%);
   transition: 0.3s;
- margin: 10px 20px;
+  margin: 75px 20px;
+}
+.subarticle h2 {
+  padding-top: 75px;
 }
 .subarticle p, 
 .subarticle h3, 
@@ -403,6 +413,9 @@ blockquote :nth-child(2){
 .subarticle li {
   line-height: 1.1em;
   padding-top: 15px;
+}
+#videos {
+  text-align: center;
 }
 
  /* Media Queries */ 
