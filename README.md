@@ -31,11 +31,11 @@ they don't waste time. The have an overview and can choose to go deeper.
 - As a user, I want to follow Jungway in different social media.
 
 #### Wire Frames
-- [Desktop Layout](/assets/wireframes/desktop-layout.png)
+- [Desktop Layout](/assets/wireframes/desktop_layout.png)
 
-- [Tablet Layout](/assets/wireframes/tablet-layout.png)
+- [Tablet Layout](/assets/wireframes/tablet_layout.png)
 
-- [Mobile Layout](/assets/wireframes/mobile-layout.png)
+- [Mobile Layout](/assets/wireframes/mobile_layout.png)
 
 
 ## Features 
