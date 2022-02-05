@@ -218,7 +218,7 @@ p {
 }
 
 #resources a.link-btn {
-    margin-left: 45px;
+    color: #006e1e;
 }
 
 /* Contact */
@@ -434,7 +434,7 @@ blockquote :nth-child(2){
   }
   #about-jung {
   width: 65%;
-  height: 900px;
+  height: auto;
   margin: 0 auto;
   }
 .jung-bio, .jung-ideas {
@@ -442,6 +442,7 @@ blockquote :nth-child(2){
   height: auto;
   float: left;
   padding: 0;
+  padding-bottom: 30px;
 }
 #resources {
   background-color: inherit;
@@ -452,8 +453,10 @@ blockquote :nth-child(2){
 }
 .resource-box {
   width: 100%;
+  height: auto;
   float: left;
   padding: 0;
+  padding-bottom: 30px;
 }
 #resources button {
   margin-top: 0px;
