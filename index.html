@@ -2,24 +2,32 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Jung Way to Individuation, Online Guide">
     <meta name="keywords" content="Jungian analysis, depth psychology, shadow, collective unconscious, individuation">
+    
+    <!-- Tells search engines to use this as the main page, code from Kera Cudmore -->
+    <link rel="canonical" href="https://amareteklay.github.io/Jungway/">
 
+    <!-- Site icon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    
+    <!-- Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <script src="assets/js/script.js"></script>
+
+    <!-- Title on browser tab-->
     <title>Jungway</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo"><span id="logo-part1">Jung</span><span id="logo-part2">way</span></h1>
-        </a>
         <nav>
+            <a href="index.html">
+                <h1><span id="logo-white">Jung</span><span id="logo-orange">way</span></h1>
+            </a>
             <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
@@ -34,9 +42,10 @@
                     <a href="#contact">Contact Us</a>
                 </li>
             </ul>
+            <!-- Icon to toggle menu on mobile, code from w3schools -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i> </a>
         </nav>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fas fa-bars"></i> </a>
     </header>
 
     <!-- Hero image section -->
@@ -57,8 +66,7 @@
                 <p> Carl Gustav Jung was a Swiss psychiatrist and psychoanalyst. He is the father of analytical psychology. 
                     Jung was born on 26 July 1875 and died at the age of 86 on 6
                     June 1961. In 1903 he married Emma Rauschenbach, and they couple had five children.</p>
-
-                    <p> The influence of Jung's work is not limited to psychology. It permeates the fields of:</p>
+                <p> The influence of Jung's work is not limited to psychology. It permeates the fields of:</p>
                    <ul>
                        <li>
                         Psychiatry
@@ -101,14 +109,9 @@
 
     <!-- Resources section -->
     <section id="resources">
-        <h2>Resources about Jungian Psychology</h2>
-        <div class="resource-box">
-            <iframe width="480" height="360" src="https://www.youtube.com/embed/2AMu-G51yTY" 
-            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-        </div>
-        <div class="resource-box">
-            <h3>Understand the Jungway via</h3>
+        <h2>Resources for your Jungway</h2>
+        <div class="resource-list">
+            <h3>Resource categories</h3>
            <ul>
                <li> 
                    <a href="resources.html#books">Books</a>
@@ -122,9 +125,14 @@
                <li> 
                    <a href="resources.html#training">Trainig centers</a>
                 </li>
-           </ul> 
+           </ul>
+           <a class="link-btn" href="resources.html">Learn more<i class="fas fa-arrow-alt-circle-right"></i></a> 
         </div>
-        <a class="link-btn" href="resources.html">Learn more<i class="fas fa-arrow-alt-circle-right"></i></a>
+        <div class="video-box">
+            <iframe width="480" height="360" src="https://www.youtube.com/embed/2AMu-G51yTY" 
+            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
     </section>
 
     <!-- Contact section -->
@@ -145,8 +153,8 @@
 
     <!-- Footer -->
     <footer>
-        <div id="footer1">
-            <ul class="social">
+        <div id="social-icons">
+            <ul>
                 <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
                         aria-label="Visit our Facebook page (opens in a new tab)"><i
@@ -164,16 +172,14 @@
                 </li>
             </ul>
         </div>
-        <div id="footer2">
-            <div id="terms">
-                Terms and Conditions
-            </div>
-            <div><a href="index.html">Copyright &copy; Jungway (Code Institute Student Project)</a></div>
+        <div id="copyright">
+            <a href="index.html">Copyright &copy; Jungway</a>
         </div>
     </footer>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/1334675705.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 

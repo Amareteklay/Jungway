@@ -2,24 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Jung Way to Individuation, Online Guide">
-    <meta name="keywords" content="Jungian analysis, depth psychology, shadow, collective unconscious, individuation">
+   <!-- Meta tags -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="The Jung Way to Individuation, Online Guide">
+   <meta name="keywords" content="Jungian analysis, depth psychology, shadow, collective unconscious, individuation">
+   
+   <!-- Tells search engines to use this as the main page, code from Kera Cudmore -->
+   <link rel="canonical" href="https://amareteklay.github.io/Jungway/">
 
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <script src="assets/js/script.js"></script>
+   <!-- Site icon -->
+   <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+   
+   <!-- Stylesheet -->
+   <link href="assets/css/style.css" rel="stylesheet">
+
+   <!-- Title on browser tab-->
     <title>Resources on Jungian Psychology</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo"><span id="logo-part1">Jung</span><span id="logo-part2">way</span></h1>
-        </a>
         <nav>
+            <a href="index.html">
+                <h1><span id="logo-white">Jung</span><span id="logo-orange">way</span></h1>
+            </a>
             <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
@@ -38,9 +46,10 @@
                         <i class="fas fa-bars"></i> </a>
                 </li>
             </ul>
+            <!-- Icon to toggle menu on mobile, code from w3schools -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i> </a>
         </nav>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fas fa-bars"></i> </a>
     </header>
 
     <!-- Hero image section -->
@@ -137,12 +146,14 @@
         </div>
     </section>
 
+<!-- Footer -->
     <footer>
-        <div id="footer1">
-            <ul class="social">
+        <div id="social-icons">
+            <ul>
                 <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fab fa-facebook"></i></a>
                 </li>
                 <li><a href="https://twitter.com" target="_blank" rel="noopener"
                         aria-label="Follow us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
@@ -151,19 +162,16 @@
                         aria-label="Find us on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li><a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                        aria-label="Visit our YouTube channel (opens in a new tab)"><i
+                            class="fab fa-youtube"></i></a>
                 </li>
             </ul>
         </div>
-        <div id="footer2">
-            <div>
-            </div>
-            <div id="terms">
-                Terms and Conditions
-            </div>
-            <div><a href="index.html">Copyright &copy; Jungway (Code Institute Student Project)</a></div>
+        <div id="copyright">
+            <a href="index.html">Copyright &copy; Jungway</a>
         </div>
     </footer>
+
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/1334675705.js" crossorigin="anonymous"></script>
 </body>
