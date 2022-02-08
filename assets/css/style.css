@@ -107,11 +107,11 @@ nav a.icon {
   letter-spacing: 4px;
   font-weight: 400;
   padding: 40px;
-  background-color: rgba(0, 110, 30, 0.4);
+  background-color: rgba(0, 110, 30, 0.5);
   bottom: 30%;
   right: 37%;
   position: absolute;
-  border: lightsalmon 1px solid;
+  border: #006e1e 2px solid;
   border-radius: 10px;
 }
 #scroll-btn {
@@ -132,17 +132,23 @@ nav a.icon {
 }
 #scroll-btn:hover {
   border: lightsalmon 1px solid;
-  font-size: 1.1em;
+  font-size: 1.25em;
 
 }
 /* About section */
-#about-jung {
+#jung-bio {
   height: 700px;
   width: 100%;
   padding-top: 45px;
   position: relative;
 }
-
+#jung-ideas {
+  background-color: rgba(38, 65, 67, 0.25);
+  height: 700px;
+  width: 100%;
+  padding-top: 45px;
+  position: relative;
+}
 .jung-bio {
   overflow: hidden;
   float: left;
@@ -151,16 +157,16 @@ nav a.icon {
   padding: 30px 20px 10px 150px;
 }
 
-#about-jung h2 {
+#jung-bio h2, #jung-ideas h2 {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-#about-jung ul {
+#jung-bio ul, #jung-ideas ul {
   padding-left: 20px;
   margin-bottom: 30px;
 }
-#about-jung li {
+#jung-bio li, #jung-ideas li {
   padding-top: 10px;
 }
 p {
@@ -191,6 +197,12 @@ p {
 /* Resources */
 #resources {
   background-color: rgba(38, 65, 67, 0.25);
+  height: 600px;
+  width: 100%;
+  padding-top: 75px;
+  position: relative;
+}
+#jung-video {
   height: 600px;
   width: 100%;
   padding-top: 75px;
@@ -276,6 +288,7 @@ p {
   padding-right: 10px;
   width: 65%;
   z-index: 1;
+  border: #006e1e 2px solid;
   border-radius: 20px;
 }
 
@@ -451,7 +464,7 @@ blockquote :nth-child(2){
 /* For Tablets */
 
 @media screen and (max-width: 1024px){
-  #about-jung {
+  #jung-bio, #jung-ideas {
   width: 65%;
   height: auto;
   margin: 0 auto;
@@ -572,12 +585,12 @@ form label {
     font-size: 1.15em;
   }
 
-  #about-jung {
+  #jung-bio, #jung-ideas {
     padding-top: 0;
     width: 75%;
   }
 
-  #about-jung p {
+  #jung-bio p, #jung-ideas p {
     padding-top: 0;
   }
   
