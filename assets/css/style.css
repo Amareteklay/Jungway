@@ -133,23 +133,24 @@ nav a.icon {
 #scroll-btn:hover {
   border: lightsalmon 1px solid;
   font-size: 1.25em;
+}
 
-}
 /* About section */
-#jung-bio {
+#bio {
+  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
   height: 700px;
   width: 100%;
   padding-top: 45px;
   position: relative;
 }
-#jung-ideas {
-  background-color: rgba(38, 65, 67, 0.25);
+#ideas {
+  background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
   height: 700px;
   width: 100%;
   padding-top: 45px;
   position: relative;
 }
-.jung-bio {
+.bio-left {
   overflow: hidden;
   float: left;
   width: 50%;
@@ -157,16 +158,16 @@ nav a.icon {
   padding: 30px 20px 10px 150px;
 }
 
-#jung-bio h2, #jung-ideas h2 {
+#bio h2, #ideas h2 {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-#jung-bio ul, #jung-ideas ul {
+#bio ul, #ideas ul {
   padding-left: 20px;
   margin-bottom: 30px;
 }
-#jung-bio li, #jung-ideas li {
+#bio li, #ideas li {
   padding-top: 10px;
 }
 p {
@@ -176,7 +177,7 @@ p {
   line-height: 1.6;
 }
 
-.jung-ideas {
+.ideas-right {
   padding: 30px 75px 10px 45px;
   width: 49%;
   height: 100%;
@@ -196,13 +197,14 @@ p {
 }
 /* Resources */
 #resources {
-  background-color: rgba(38, 65, 67, 0.25);
+  background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
   height: 600px;
   width: 100%;
   padding-top: 75px;
   position: relative;
 }
 #jung-video {
+  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
   height: 600px;
   width: 100%;
   padding-top: 75px;
