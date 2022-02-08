@@ -137,18 +137,21 @@ nav a.icon {
 
 /* About section */
 #bio {
-  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
-  height: 700px;
-  width: 100%;
-  padding-top: 45px;
-  position: relative;
-}
-#ideas {
   background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
-  height: 700px;
+  height: 600px;
   width: 100%;
-  padding-top: 45px;
+  padding-top: 15px;
   position: relative;
+  overflow: hidden;
+}
+
+#ideas {
+  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
+  height: 600px;
+  width: 100%;
+  padding-top: 15px;
+  position: relative;
+  overflow: hidden;
 }
 .bio-left {
   overflow: hidden;
@@ -157,7 +160,23 @@ nav a.icon {
   height: 100%;
   padding: 30px 20px 10px 150px;
 }
-
+.bio-right {
+  background: url('../images/fractal.jpeg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.2;
+  height: 75%;
+  width: 50%;
+  overflow: hidden;
+}
+.ideas-left {
+    background: url('../images/cgjung.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.4;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    position: absolute;
+}
 #bio h2, #ideas h2 {
   text-align: center;
   padding-top: 30px;
@@ -180,7 +199,7 @@ p {
 .ideas-right {
   padding: 30px 75px 10px 45px;
   width: 49%;
-  height: 100%;
+  min-height: 100vh;
   float: right;
   flex-grow: 1;
 }
@@ -195,65 +214,67 @@ p {
   border-radius: 15px;
   text-align: center;
 }
-/* Resources */
-#resources {
+/* Video section */
+#jung-video {
   background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
   height: 600px;
   width: 100%;
-  padding-top: 75px;
   position: relative;
-}
-#jung-video {
-  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
-  height: 600px;
-  width: 100%;
-  padding-top: 75px;
-  position: relative;
-}
-
-#resources h2 {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.resource-list {
   overflow: hidden;
-  float: left;
-  width: 40%;
-  height: 100%;
-  padding: 30px 20px 10px 150px;
 }
-.video-box {
+#jung-video h2 {
+  margin-left: 150px;
+  padding-top: 30px;
+}
+.video-left {
   overflow: hidden;
   width: 58%;
-  height: 100%;
-  flex-grow: 1;
-  padding: 30px 150px 10px 0;
+  min-height: 100vh;
+  padding: 30px 150px 10px 75px;
+}
+.video-left iframe {
+  display: block;
+  border: 0;
+  margin: 0 auto;
+}
+.video-right {
+  height: 75%;
+  width: 50%;
+  overflow: hidden;
 }
 
-.resource-list h3 {
+/*Resources section */
+#resources {
+  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
+  overflow: hidden;
+  height: 600px;
+  width: 100%;
+  padding-top: 15px;
+  position: relative;
+}
+.resource-right {
+  overflow: hidden;
+  float: right;
+  width: 50%;
+  min-height: 100vh;
+  padding: 30px 20px 10px 150px;
+}
+.resource-right h3 {
   padding-top: 10px;
   font-size: 1.5em;
 }
 
-.video-box iframe {
-  display: block;
-  border: 0;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-.resource-list ul {
+.resource-right ul {
   list-style: none;
   padding-top: 10px;
   margin-bottom: 30px;
 }
-.resource-list li {
+.resource-right li {
   padding-top: 20px;
   font-size: 1.5em;
 }
 
-.resource-list a.link-btn {
+.resource-right a.link-btn {
     color: #006e1e;
 }
 .link-btn:hover {
@@ -262,9 +283,10 @@ p {
   background-color: #006e1e;
   color: #ffffff;
 }
-.resource-list a.link-btn:hover {
+.resource-right a.link-btn:hover {
   color: #ffffff;
 }
+
 /* Contact */
 #contact {
   background: url('../images/carl-jung.jpg') no-repeat center center;

@@ -118,7 +118,8 @@ I have deployed this website via GitHub pages. It is live on [Jungway](https://a
 
 
 ### Media
-- 
+- https://www.wisdompills.com/30-carl-jung-quotes-guaranteed-to-crack-your-idea-of-reality-wide-open/
+- https://www.on-seeing.com/home/2016/6/21/jungian-analytic-psychology-a-spirituality-for-the-agnostics
 
 ### Acknowledgements
 - 
