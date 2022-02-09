@@ -1,73 +1,110 @@
 # Jungway
-We live in an era of information overload, short attention span, and a pandemic that has forced us to spend more time with ourselves. Each of these has the potential to reveal how tiny a space one occupies in the vast world and how fragile one’s ego is. 
+We live in an era of information overload, short attention span, and a pandemic that has forced us to spend more time with ourselves. Each of these has the potential to reveal how tiny a space one occupies in the vast world and how fragile one’s ego is.
 
-The rationale for Jungway is to introduce users to the Jungian way of understanding ourselves and the world. Empowering the individual is an important part of building a resilient society, and one way of achieving that is by helping them embrace their shadow and go through the process of individuation. Jungway is a gateway towards that process. It provides users with relevant information on Jungian Psychology, the psychological methods that Carl Gustav Jung developed.
+The rationale for Jungway is to introduce users to the Jungian way of understanding ourselves and the world. Empowering the individual is an important part of building a resilient society, and one way of achieving that is by helping them to embrace their shadows and to go through the process of individuation. Jungway is a gateway towards that process. It provides users with relevant information on Jungian Psychology, the psychological methods that Carl Gustav Jung developed.
 
-Jungway is a sort of map with signposts of Jung’s brief bio, his key ideas, and for users who want to dig deeper, of links to many resources online, including Jung's own works. Users can find lists of popular books as well as links to more accessible materials such as podcasts. 
+Jungway is a sort of map with signposts of Jung’s brief bio, his key ideas, and for users who want to dig deeper, links to many resources online, including Jung's own works. Users can find lists of popular books as well as links to more accessible materials such as podcasts. 
 
 ![Mockup](/assets/images/mock-up-responsive.jpg)
 
-## Goals
-#### User’s goal: 
-Get a structured introduction to the concepts in and materials of Jungian psychology.
-#### Owner’s goal: 
-Promote the ideas of Jung in such a way that helps each user to become a better person.
+[Jungway on Github pages](https://amareteklay.github.io/Jungway/)
 
-## UX
-The home page is divided into sections. Users can easily learn about what Jungway holds for them by jumping between sections. The other pages give details of the information provided in each section. The background color and the font color contrast well, enabling users to read content easily. The contact form sticks at the bottom in each page. Users can navigate between different pages, so wherever they are, users can find their way to what they want to visit next. 
-External links open in new tabs. So users do not get interrupted from what they have been reading. 
-color consistent, neutral...good contract, alternating...
-font
-favicon
-inspire and reveal more
-they don't waste time. The have an overview and can choose to go deeper.
+## Goals and User Experience (UX)
 
-#### User Stories
+### User’s goal: 
+The user's goal while visitng Jungway is getting structured information about and a step-by-step introduction to Jungian psychology.
+### Owner’s goal: 
+The owner's goal is promoting the ideas of Jung in such a way that it inspires the user to understand oneself better and become a better person.
+
+### UX
+Jungian psychology is immensely broad and complex. It can be intimidating for a beginner to get their grip on the material and the concepts. Jungway aims to provide structure to the presentation of the material on Jungian psychology.
+Jungway provides the user with:
+- a message to learn the Jungway to embrace their shadow. This will trigger their curiosity.
+- a call to action to learn more.
+- a brief introduction the Jung's bio, as first time users may want to know him.
+- an introduction to the key (key is the key word here) concepts in Jungian psychology. Once a user has the 'key' concepts, they can begin to appreciate how the whole thing fits together.
+- lists (both categories and specific) of materials randing from Jung's own works to more accessible resources such as podcasts and works of other Jungian analysts. 
+- a possibility to always ask questions or send comments.
+- an ability to view Jungway on one's favorite social media.
+
+The information for the website is selected and organized with the user in mind, more precisely the user's stories in mind.
+
+### User Stories
+
 - As a user, I want to learn about Jung's life.
 - As a user, I want to have a big picture of key ideas in Jungian psychology.
-- As a user, I want to see links to Jung's own works.
-- As a user, I want to know what other Jungian scholars are saying.
+- As a user, I want to find links to Jung's own works.
+- As a user, I want to read and listen to works by other Jungian scholars.
+- As a user, I want to find popular podcasts about Jungian psychology quickly. 
 - As a user, I want to be able to send feekback or ask questions.
 - As a user, I want to follow Jungway in different social media.
 
-#### Wire Frames
+## Design
+
+### Colors
+Jungway uses green color palette because [green stands for balance, nature, spring, and rebirth.](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) That is the essence of Jungian psychology, individuation, rebirth at the psychological level. The Orange color in the log and favicon symbolizes joy, warmth and contentment. White font fits well on a green background, making user experience pleasant.  
+
+ ### Fonts
+Jungway uses google fonts to make content more appealing to read.
+- For the headings, the Oswald font family was used.
+- The Lato font family was used for the body. 
+
+### Imagery
+Symbols are important in Jungian psychology. 
+- The fractal background image in the home page was used to symbolize the idea of archetypes, universal patterns.
+- The rationale for the use of caricatures instead of just photos of Jung is also partly to make the symbols fit the central ideas in Jungian psychology (e.g., shadow).
+I have acknowledged the sources in the credit section. 
+
+### Wireframes
 - [Desktop Layout](/assets/wireframes/desktop_layout.png)
 
 - [Tablet Layout](/assets/wireframes/tablet_layout.png)
 
 - [Mobile Layout](/assets/wireframes/mobile_layout.png)
 
-
-## Features 
-
+## Features
 ### Existing features
-#### Navigation bar:
-The header section of Jungway has a logo and a menu. The logo is a text with nicely contrasting white and orange colors. The logo is linked to the home page and users can click the logo from any page and they will return to the home page. 
-The menu on the header has four menu items. When a user clicks each menu item from the home page, it shows the section of the page. If the user is in other pages than the home page and clicks each menu item, the home menu opens the home page, about opens the about page, resources opens the resources page and contact takes the user to the contact section of the page currently open. That way, the user can easily navigate through Jungway. 
-#### Home page
-divided into four sections
-#### Hero Image:
+Jungway has four separate pages, each linked to a menu item in the navigation bar at the top of each page. The Home, About, Ideas and Resources menu items are linked to their respective pages. Each page has a contact form below the page's content, and it can be accessed via the Contact Us menu item in the navigation bar.  
 
-#### About Section
-•	About section: briefly introduces Jung’s bio and key concepts in Jungian psychology. Two links are provided to help interested users to read the full bio as well as a description of the key concepts. Through the links, users can see two pages.
-•	About page: is a biographical description of Jung and his life. First time users benefit from reading this. Jung’s life is interesting in that his thoughts are very much linked to his own psychological experiences. So this page inspires readers to find out more about Jung’s works. 
-•	Ideas page: gives an overview of the Jungian tradition by defining key concepts and terms. For beginners, Jung’s ideas may at times be intimidating, so a gentle introduction to the core concepts and how they relate to each other paves the way for a deeper dive into Jungian analysis.
+The header consists of a logo besides the navigation. The logo is a text with nicely contrasting white and orange colors on a darkslategray background. A user can click the logo from any page and return to the home page.
+ 
+* Home page: the Home page consists of:
+  * a header (with logo and navigation menu items mentioned above)
+  * a hero image section with Jung's image, and a hero text as well as a call to action that inspire a user to learn more.
+As the saying goes, 'first impression is last impression.' The hero section was designed to compell the user to read more. 
 
-#### Resources section
-•	Resources section: this is another section on the home page with a video from the horse’s mouth (Jung’s interview) and links to different sections of a dedicated page for providing resources. When a user clicks on the ‘Learn more’ link, the resources page opens.
-•	Resources page: is a collection of different resources about Jungian psychology. The resources are categorized into books, videos, podcasts and formal training programs. The links on the resources section of the home page open the respective category of the resources page. For semantic purposes, the entire resources page has two sections, the content which is divided into articles and the contact sections. 
-Videos: videos are taken from YouTube and embedded in the appropriate section or page. They can be played on the page or opened in YouTube on a new tab. 
-Podcasts: links to podcasts point to the websites of the podcasts listed. The alternative would be to list episodes but that would create choice overload for the user. By linking the post popular podcasts on Jungian analysis, the user gets to choose the podcast they like first and then the episode(s).
+![Hero image and call to action](/assets/images/landing-page.jpg)  
+ * about section which gives users a brief introduction to Jung's bio with an invitation to read more in a separate page. When a user clicks on the call to action in the hero image section, the page scrolls to the about section. On the left of this section is a brief bio while on the right is a fractal image. 
+ * a section for key ideas which is inteded to show small but interesting content and invite the user to dive deeper following a link to a dedicated page (ideas page). The pattern in the sections is that the image and text swap positions in a subsequent section. So the ideas are on the right while Jung's caricature (image chosed to depict that he engaged in deep thought, which matches the ideas) is on the left.
+ * a resources section that has a video on the right (because the image in the above section is on the left.) A list of resource categories (Books, Videos, Podcasts and Training centers) is provided on the left side of the resources section. Each list item is linked to a section for the same category on the separate resources page. 
+   * The resources section provides a sample of the resources one needs to learn about Jungian psychology. One os the most important resources is the words from "the horse's mouth." Jung's interview is embeded from YouTube. The autoplay option of the video in this section has been disabled to give the user an option to decided how to play it, but more importantly to spare the user from suddenly playing a loud sound. 
 
-#### Contact section
-•	Contact section:  this section appears both on the home page and other pages. As users may want to send comments or questions that they have at any part of the website, the contact form is available to them all the time.
-#### Footer
-•	The footer: is also visible in all pages. It displays social icons linked to different social media platforms which open in new tabs, and a copyright paragraph with link to the home page.
+* About page: is a biographical description of Jung and his life. First time users benefit from reading this. Jung’s life is interesting in that his thoughts are very much linked to his own psychological experiences. So this page inspires readers to find out more about Jung’s works. 
 
-### Features not implemented
+* Ideas page: gives an overview of the Jungian tradition by defining key concepts and terms. For beginners, Jung’s ideas may at times be intimidating, so a gentle introduction to the core concepts and how they relate to each other paves the way for a deeper dive into Jungian analysis.
 
+* Resources page: is a collection of different resources about Jungian psychology. The resources are categorized into books, videos, podcasts and formal training programs. The links on the resources section of the home page open the respective category of the resources page. For semantic purposes, the entire resources page has two sections, the content which is divided into articles and the contact sections.
+ * Books
+ * Videos: videos are taken from YouTube and embedded in the appropriate section or page. They can be played on the page or opened in YouTube on a new tab. 
+ * Podcasts: links to podcasts point to the websites of the podcasts listed. The alternative would be to list episodes but that would create choice overload for the user. By linking the post popular podcasts on Jungian analysis, the user gets to choose the podcast they like first and then the episode(s).
+ * Training centers: considering the diversity of the potential users of Jungway, many may be interested in getting certified to become Jungian analysts. Links to two training centers is provided: As these are external links, they open in new tabs.
+* Contact section:  this section appears both on the home page and all other pages. As users may want to send comments or questions that they have at any part of the website, the contact form is available to them all the time.
+* The footer: is also visible in all pages. 
+  * It displays social icons linked to different social media platforms which open in new tabs, and 
+  * a copyright paragraph with link to the home page (or to the top if the user is already on the different sections of the home page.)
 
-## Technologies used
+### Future implementation
+* A return-to-top function needs to be implemented using JavaScript to make it easier for users to scroll back to the top on the home page.
+* An Analyst page would be useful that enables the user to search for a Jungian analyst near their location.
+
+### Accessibility
+I used both semantic HTML elements and different attributes to make the Jungway website accessible to users with different capabilities.
+* Jungway includes semantic HTML such as header, nav, section, article and footer.
+* Images and videos have descriptive alt attribute values.
+* Social icons with no text have aria-labels.
+* The choice of colors for text and background is such that it gives a reasonable color contrast in a consistent way.
+
+## Technologies used  
 ### Required
 - HTML
  - Jungway is built using **html5** to create the layout for the content. 
@@ -82,8 +119,24 @@ Podcasts: links to podcasts point to the websites of the podcasts listed. The al
 - Google developer tools
 - Lighthouse
 - W3C validator
+Balsamiq - Used to create wireframes.
+
+Github - create a dedicated repository, save and store files and for version control.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+[Shields.io](https://shields.io/) To add badges to the README
 
 ## Testing and validation
+  #### W3C Validator
 I used W3C to validate my HTML and the jigsaw W3C to validate my CSS code and there are no errors or warnings for all pages. I have conducted lighthouse test and the performance, accessibility, best practices and SEO scores are well above 90 (see image below).
 
 <p>
@@ -93,17 +146,23 @@ I used W3C to validate my HTML and the jigsaw W3C to validate my CSS code and th
             alt="Valid CSS!" />
     </a>
 </p>
-       
+
+   * [Testing User Stories](#Testing-User-Stories)
+
 Lighthouse report
 ![Lighthouse report](/assets/images/lighthouse-report.jpg)
- 
+    * [Index Page](#)
+    * [About Page](#)
+    * [Ideas Page](#)
+    * [Resources Page](#)
 
 ## Deployment
-
 I have deployed this website via GitHub pages. It is live on [Jungway](https://amareteklay.github.io/Jungway/)
 
 ## Credits
-
+### Code Used
+- The layout of this documentation was adapted from [CI README template] (https://github.com/Code-Institute-Solutions/readme-template)
+- Code for border shadow was taken from https://jungchicago.org/store/index.php?route=information/information&information_id=32
 ### Content
 - https://jungplatform.com/jungian-terms
 - https://www.chalquist.com/jungian-terms
@@ -122,9 +181,8 @@ I have deployed this website via GitHub pages. It is live on [Jungway](https://a
 - https://www.on-seeing.com/home/2016/6/21/jungian-analytic-psychology-a-spirituality-for-the-agnostics
 
 ### Acknowledgements
-- 
-- The layout of this documentation was adapted from [CI README template] (https://github.com/Code-Institute-Solutions/readme-template)
-- Code for border shadow was taken from https://jungchicago.org/store/index.php?route=information/information&information_id=32
+- [Moosa Hassan](), my mentor at Code Institute, particularly for pointing out that I could make the navigation less confusing, which I did. 
+
 
 ### Disclaimer
 
