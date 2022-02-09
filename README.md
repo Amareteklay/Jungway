@@ -161,28 +161,27 @@ I have deployed this website via GitHub pages. It is live on [Jungway](https://a
 
 ## Credits
 ### Code Used
-- The layout of this documentation was adapted from [CI README template] (https://github.com/Code-Institute-Solutions/readme-template)
-- Code for border shadow was taken from https://jungchicago.org/store/index.php?route=information/information&information_id=32
+- The layout of this documentation was adapted from [CI README template](https://github.com/Code-Institute-Solutions/readme-template) and [Kera Cudmore's Bully Book Club Website](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md). 
+- Code for border shadow used in the resources page was taken from [CG Jung Institute of Chicago's website](https://jungchicago.org/store/index.php?route=information/information&information_id=32)
 ### Content
-- https://jungplatform.com/jungian-terms
-- https://www.chalquist.com/jungian-terms
-- https://en.wikipedia.org/wiki/Jungian_archetypes
-- https://www.google.com/search?q=what+is+collective+unconscious&oq=what+is+collective+unconscious+&aqs=chrome..69i57j0i20i263i512l2j0i512j0i22i30l6.9627j0j7&sourceid=chrome&ie=UTF-8
-- https://www.harleytherapy.co.uk/counselling/freud-vs-jung-similarities-differences.htm
-- https://en.wikipedia.org/wiki/Analytical_psychology
-- https://www.simplypsychology.org/carl-jung.html
-- https://www.psychologytoday.com/intl/therapy-types/jungian-therapy
-- https://iaap.org/what-is-analytical-psychology/
-- https://www.mytherapist.com/advice/psychology/what-is-carl-jung-depth-psychology/
+- I referred to [Sensational Colors](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) for the meaning of different colors. 
+- I heavily relied on [Jung Platform](https://jungplatform.com/jungian-terms) and [Craig Chalquist's glossary of Jungian terms](- https://www.chalquist.com/jungian-terms) for definitions and terms of key concepts.
+- [Wikipedia articles](https://en.wikipedia.org/) on [Jungian archetypes](https://en.wikipedia.org/wiki/Jungian_archetypes), [Analytical psychology](https://en.wikipedia.org/wiki/Analytical_psychology) were important sources of content. 
+- [The definition of collective unconscious was taken from](https://www.google.com/search?q=what+is+collective+unconscious&oq=what+is+collective+unconscious+&aqs=chrome..69i57j0i20i263i512l2j0i512j0i22i30l6.9627j0j7&sourceid=chrome&ie=UTF-8)
+I also either copied or rewrote content from: 
+- [Harley Therapy's page on Freud and Jung](https://www.harleytherapy.co.uk/counselling/freud-vs-jung-similarities-differences.htm)
+- [Simply Psychology](https://www.simplypsychology.org/carl-jung.html)
+- [Psychology Today](https://www.psychologytoday.com/intl/therapy-types/jungian-therapy)
+- [International Association for Analytical Psychology](https://iaap.org/what-is-analytical-psychology/)
+- [My Therapist](https://www.mytherapist.com/advice/psychology/what-is-carl-jung-depth-psychology/)
 
 
 ### Media
-- https://www.wisdompills.com/30-carl-jung-quotes-guaranteed-to-crack-your-idea-of-reality-wide-open/
-- https://www.on-seeing.com/home/2016/6/21/jungian-analytic-psychology-a-spirituality-for-the-agnostics
+- Jung's caricature was taken from [Wisdom Pills ](https://www.wisdompills.com/30-carl-jung-quotes-guaranteed-to-crack-your-idea-of-reality-wide-open/)
+- The fractal image on the home page was taken from [On Seeing](https://www.on-seeing.com/home/2016/6/21/jungian-analytic-psychology-a-spirituality-for-the-agnostics)
 
 ### Acknowledgements
-- [Moosa Hassan](), my mentor at Code Institute, particularly for pointing out that I could make the navigation less confusing, which I did. 
-
+- My gratitude goes to [Moosa Hassan](), my mentor at Code Institute. His tips and encouragement have been very helpful, and I am grateful to him particularly for pointing out that I could make the navigation less confusing, which I did. 
 
 ### Disclaimer
 
