@@ -221,13 +221,14 @@ p {
 #resources {
   background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
   overflow: hidden;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   padding-top: 15px;
   position: relative;
 }
 #resources h2 {
   text-align: center;
+  padding-top: 45px;
 }
 .resource-left {
   overflow: hidden;
@@ -257,7 +258,6 @@ p {
 .resource-right {
   padding: 30px 75px 10px 0;
   width: 49%;
-  min-height: 100vh;
   float: right;
   flex-grow: 1;
 }
@@ -281,7 +281,7 @@ p {
 #contact {
   background: url('../images/carl-jung.jpg') no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   margin: 0 auto;
   padding-top: 45px;
@@ -481,13 +481,17 @@ blockquote :nth-child(2){
     padding-top: 90px;
   }
   .bio-left {
-  padding-left: 75px;
+  padding-left: 45px;
   }
 
 .bio-right img {
   padding: 15px 20px 20px 15px;
 }
 
+#ideas {
+  height: 75vh;
+  padding-top: 90px;
+}
 .ideas-right {
   padding: 30px 45px 10px 10px;
 }
@@ -503,10 +507,12 @@ blockquote :nth-child(2){
 .resource-left {
   float: left;
   padding-bottom: 30px;
-  padding-left: 75px;
+  padding-left: 45px;
   width: 35%;
 }
-
+.resource-left li {
+  font-size: 1.2em;
+}
 .resource-right {
   text-align: center;
   float: none;
@@ -545,7 +551,66 @@ blockquote :nth-child(2){
   #hero-text {
     display: none;
   }
+  #scroll-btn {
+    display: none;
+  }
+.bio-right {
+  display: none;
+}
+#bio {
+  background: url(/assets/images/fractal.jpeg) no-repeat center center;
+  background-size: cover;
+  opacity: 0.3;
+ padding-top: 0;
+ height: 65vh;
+}
+#bio a.link-btn {
+  background-color: #006e1e;
+  color: #fff;
+  border: lightsalmon 2px solid;
+}
+#bio a.link-btn:hover {
+  background-color: #ececf1;
+  color: #006e1e;
+}
+.bio-left {
+  background-color: rgba(0, 110, 30, 0.9);
+  color: #fff;
+  width: 100%;
+  font-size: 130%;
+}
+#ideas {
+  padding-top: 0;
+  height: 75vh;
+  font-size: 130%;
+}
+.ideas-left {
+  display: none;
+}
+.ideas-right {
+  width: 100%;
+  padding: 20px 30px;
+}
+#resources {
+  padding-top: 0;
+  height: fit-content;
+}
+#resources h2 {
+  display: none;
+}
 
+.resource-left {
+  padding-left: 75px;
+  width: 100%;
+  height: fit-content;
+}
+.resource-right {
+  width: 100%;
+  overflow: hidden;
+}
+.resource-right iframe {
+  height: 100%;
+}
 .subarticle hr {
     display: none;
   }
