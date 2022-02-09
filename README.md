@@ -167,7 +167,7 @@ I have deployed this website via GitHub pages. It is live on [Jungway](https://a
 ### Content
 - I referred to [Sensational Colors](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) for the meaning of different colors. 
 - I heavily relied on [Jung Platform](https://jungplatform.com/jungian-terms) and [Craig Chalquist's glossary of Jungian terms](- https://www.chalquist.com/jungian-terms) for definitions and terms of key concepts.
-- [Wikipedia articles](https://en.wikipedia.org/) on [Jungian archetypes](https://en.wikipedia.org/wiki/Jungian_archetypes), [Analytical psychology](https://en.wikipedia.org/wiki/Analytical_psychology) were important sources of content. 
+- [Wikipedia articles](https://en.wikipedia.org/) on [Jung's life](Carl Jung), [Jungian archetypes](https://en.wikipedia.org/wiki/Jungian_archetypes), [Analytical psychology](https://en.wikipedia.org/wiki/Analytical_psychology) were important sources of content. 
 - [The definition of collective unconscious was taken from](https://www.google.com/search?q=what+is+collective+unconscious&oq=what+is+collective+unconscious+&aqs=chrome..69i57j0i20i263i512l2j0i512j0i22i30l6.9627j0j7&sourceid=chrome&ie=UTF-8)
 I also either copied or rewrote content from: 
 - [Harley Therapy's page on Freud and Jung](https://www.harleytherapy.co.uk/counselling/freud-vs-jung-similarities-differences.htm)

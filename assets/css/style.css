@@ -524,6 +524,10 @@ blockquote :nth-child(2){
   overflow: hidden;
   height: 60vh;
 }
+.article {
+  width: 100%;
+  padding: 45px 45px 75px;
+}
 }
 
 /* For low resolution  Tablets, Ipads */
