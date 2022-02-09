@@ -125,7 +125,7 @@ Github - create a dedicated repository, save and store files and for version con
 
 Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the iconography on the website.
+- I used the Awesome [Font Awesome](https://fontawesome.com/v5/icons/school?style=solid&s=solid) to add relevant and descriptive icons the Jungway website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
@@ -182,7 +182,10 @@ I also either copied or rewrote content from:
 
 ### Acknowledgements
 - My gratitude goes to [Moosa Hassan](), my mentor at Code Institute. His tips and encouragement have been very helpful, and I am grateful to him particularly for pointing out that I could make the navigation less confusing, which I did. 
+- Many thanks to my friend, Selam, for her valuable comments on the color and layout design.
 
 ### Disclaimer
 
 All links to commercial outlets such as books on Amazon have been chosen based solely on relevance and for the purpose of this project only. I have no intention whasoever to promote certain works and compel users to purchase using the links provided. Nor do I have any incentive to do so. Any decision to buy books or sign up for courses following the links provided will be upto the beholder.
+
+I googled jungway out of curiosity and there is a website by the same domain name. But this Jungway is an independent idea and is not related to that website. 
