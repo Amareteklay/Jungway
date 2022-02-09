@@ -42,7 +42,8 @@ The information for the website is selected and organized with the user in mind,
 ## Design
 
 ### Colors
-Jungway uses green color palette because [green stands for balance, nature, spring, and rebirth.](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) That is the essence of Jungian psychology, individuation, rebirth at the psychological level. The Orange color in the log and favicon symbolizes joy, warmth and contentment. White font fits well on a green background, making user experience pleasant.  
+Jungway uses green color palette because [green stands for balance, nature, spring, and rebirth.](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) That is the essence of Jungian psychology, individuation, rebirth at the psychological level. The Orange color in the log and favicon symbolizes joy, warmth and contentment. White font fits well on a green background, making user experience pleasant. 
+Clickable text in the body is indicated in blue to make it stand out and noticeable by the user who can then click and go to the relevant linked content or resource. 
 
  ### Fonts
 Jungway uses google fonts to make content more appealing to read.
