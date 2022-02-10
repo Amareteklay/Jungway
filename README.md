@@ -68,7 +68,8 @@ I have acknowledged the sources in the credit section.
 Jungway has four separate pages, each linked to a menu item in the navigation bar at the top of each page. The Home, About, Ideas and Resources menu items are linked to their respective pages. Each page has a contact form below the page's content, and it can be accessed via the Contact Us menu item in the navigation bar.  
 
 The header consists of a logo besides the navigation. The logo is a text with nicely contrasting white and orange colors on a darkslategray background. A user can click the logo from any page and return to the home page.
- 
+
+For consistency and to avoid unnecessary changes in the pages that grab the users' attention, the header, contact and footer sections are the same in all pages. The about and ideas pages have also similar design. The resources page has a slightly different background because it consists of content that could have presented in different pages. So the slight inconsistency there is for a reason.
 * Home page: the Home page consists of:
   * a header (with logo and navigation menu items mentioned above)
   * a hero image section with Jung's image, and a hero text as well as a call to action that inspire a user to learn more.
@@ -84,7 +85,7 @@ As the saying goes, 'first impression is last impression.' The hero section was 
 
 * Ideas page: gives an overview of the Jungian tradition by defining key concepts and terms. For beginners, Jung’s ideas may at times be intimidating, so a gentle introduction to the core concepts and how they relate to each other paves the way for a deeper dive into Jungian analysis.
 
-* Resources page: is a collection of different resources about Jungian psychology. The resources are categorized into books, videos, podcasts and formal training programs. The links on the resources section of the home page open the respective category of the resources page. For semantic purposes, the entire resources page has two sections, the content which is divided into articles and the contact sections.
+* Resources page: is a collection of different resources about Jungian psychology. The resources are categorized into books, videos, podcasts and formal training programs. The links on the resources section of the home page open the respective category of the resources page. For semantic purposes, the entire resources page has two sections, the content which is divided into articles and the contact sections.The resources section consists of different semantic articles which could have been stand alone pages but they were put in the same page to avoid unnecessary clicks with no apparent benefit, because the content of each article is small. 
  * Books
  * Videos: videos are taken from YouTube and embedded in the appropriate section or page. They can be played on the page or opened in YouTube on a new tab. 
  * Podcasts: links to podcasts point to the websites of the podcasts listed. The alternative would be to list episodes but that would create choice overload for the user. By linking the post popular podcasts on Jungian analysis, the user gets to choose the podcast they like first and then the episode(s).
@@ -95,6 +96,7 @@ As the saying goes, 'first impression is last impression.' The hero section was 
   * a copyright paragraph with link to the home page (or to the top if the user is already on the different sections of the home page.)
 
 ### Future implementation
+* Use JavaScript to specify the URL for the form action. 
 * A return-to-top function needs to be implemented using JavaScript to make it easier for users to scroll back to the top on the home page.
 * An Analyst page would be useful that enables the user to search for a Jungian analyst near their location.
 
@@ -137,7 +139,26 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Shields.io](https://shields.io/) To add badges to the README
 
 ## Testing and validation
-  #### W3C Validator
+
+### Functionality Testing
+
+* I tested if all links are working as expected, and
+    * external links open in new tab
+    * internal links work as expected
+    * hamburger icon on the nav bar toggles menu on small devices
+
+  * I tested the contact form and its elements.
+    * trying to submit an empty form produces an alert message that required fields must be filled out.
+    * input for email can recognize the pattern and show a message to the user that the @ symbol is missing.
+
+### Browser compatibility
+
+* I tested and made sure that Jungway renders correctly on
+  * Google chrome
+  * Microsoft edge
+
+### W3C Validator
+
 I used W3C to validate my HTML and the jigsaw W3C to validate my CSS code and there are no errors or warnings for all pages. I have conducted lighthouse test and the performance, accessibility, best practices and SEO scores are well above 90 (see image below).
 
 <p>
@@ -149,22 +170,31 @@ I used W3C to validate my HTML and the jigsaw W3C to validate my CSS code and th
 </p>
 
    * [Testing User Stories](#Testing-User-Stories)
-
-Lighthouse report
+  
+### Lighthouse report
 ![Lighthouse report](/assets/images/lighthouse-report.jpg)
+
     * [Index Page](#)
     * [About Page](#)
     * [Ideas Page](#)
     * [Resources Page](#)
 
 ## Deployment
+
 I have deployed this website via GitHub pages. It is live on [Jungway](https://amareteklay.github.io/Jungway/)
 
 ## Credits
+
 ### Code Used
+
 - The layout of this documentation was adapted from [CI README template](https://github.com/Code-Institute-Solutions/readme-template) and [Kera Cudmore's Bully Book Club Website](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md). 
+- Some code for meta tags was either copied and adapted from or inspired by [Kera Cudmore's Bully Book Club Website](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md).   
 - Code for border shadow used in the resources page was taken from [CG Jung Institute of Chicago's website](https://jungchicago.org/store/index.php?route=information/information&information_id=32)
+- Code for the contact form was adapted from []().
+- JavaScript code to toggle menu was taken from [W3Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+
 ### Content
+
 - I referred to [Sensational Colors](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) for the meaning of different colors. 
 - I heavily relied on [Jung Platform](https://jungplatform.com/jungian-terms) and [Craig Chalquist's glossary of Jungian terms](- https://www.chalquist.com/jungian-terms) for definitions and terms of key concepts.
 - [Wikipedia articles](https://en.wikipedia.org/) on [Jung's life](Carl Jung), [Jungian archetypes](https://en.wikipedia.org/wiki/Jungian_archetypes), [Analytical psychology](https://en.wikipedia.org/wiki/Analytical_psychology) were important sources of content. 
@@ -178,10 +208,12 @@ I also either copied or rewrote content from:
 
 
 ### Media
+
 - Jung's caricature was taken from [Wisdom Pills ](https://www.wisdompills.com/30-carl-jung-quotes-guaranteed-to-crack-your-idea-of-reality-wide-open/)
 - The fractal image on the home page was taken from [On Seeing](https://www.on-seeing.com/home/2016/6/21/jungian-analytic-psychology-a-spirituality-for-the-agnostics)
 
 ### Acknowledgements
+
 - My gratitude goes to [Moosa Hassan](), my mentor at Code Institute. His tips and encouragement have been very helpful, and I am grateful to him particularly for pointing out that I could make the navigation less confusing, which I did. 
 - Many thanks to my friend, Selam, for her valuable comments on the color and layout design.
 

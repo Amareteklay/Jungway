@@ -1,5 +1,7 @@
+/* URL to import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+/* Apply universal rules to zero margins, paddings and borders */
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +9,22 @@
   box-sizing: border-box;
 }
 
+/* Global styles */
 body {
   font-weight: 300;
   font-family: Lato, sans-serif;
 }
 
+/* Set Oswald font for headings */
 h1,
-h2 {
+h2,
+h3 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
+/* The header section and its children */
 header {
   background-color: #2f4f4f;
   display: block;
@@ -40,6 +46,7 @@ nav h1 {
   padding: 10px;
 }
 
+/* Set the two parts of the logo to different colors */
 #logo-white {
   color: #ececf1;
   padding: 2px;
@@ -67,6 +74,7 @@ nav ul li {
   padding: 5px 10px;
   color: #ececf1;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -75,6 +83,8 @@ a {
 nav ul a:hover {
   color: lightsalmon;
 }
+
+/* Disable hamburger icon by default */
 nav a.icon {
   display: none;
 }
@@ -114,6 +124,8 @@ nav a.icon {
   border: #006e1e 2px solid;
   border-radius: 10px;
 }
+
+/* Call to action */
 #scroll-btn {
   color: #ffffff;
   text-align: center;
@@ -130,14 +142,15 @@ nav a.icon {
   border: #006e1e 1px solid;
   border-radius: 10px;
 }
+
 #scroll-btn:hover {
   border: lightsalmon 1px solid;
   font-size: 1.25em;
 }
 
-/* About section */
+/* Bio section */
 #bio {
-  background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
+  background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff);
   height: 600px;
   margin: 0 auto;
   padding-top: 15px;
@@ -145,14 +158,6 @@ nav a.icon {
   overflow: hidden;
 }
 
-#ideas {
-  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff );
-  height: 600px;
-  width: 100%;
-  padding-top: 15px;
-  position: relative;
-  overflow: hidden;
-}
 .bio-left {
   overflow: hidden;
   float: left;
@@ -160,42 +165,33 @@ nav a.icon {
   height: 100%;
   padding: 30px 20px 10px 150px;
 }
+
 .bio-right {
   overflow: hidden;
 }
+
 .bio-right img {
   padding: 75px 20px 20px 75px;
 }
+
+/* Ideas section */
+#ideas {
+  background-image: linear-gradient(to left, rgba(38, 65, 67, 0.25), #fff);
+  height: 600px;
+  width: 100%;
+  padding-top: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
 .ideas-left {
-    background: url('../images/cgjung.jpg') no-repeat center center;
-    background-size: cover;
-    opacity: 0.4;
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-    position: absolute;
-}
-#bio h2, #ideas h2 {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-#ideas h2 {
-  text-align: center;
-  padding-bottom: 20px;
-}
-#bio ul, #ideas ul {
-  padding-left: 20px;
-  margin-bottom: 30px;
-}
-#bio li, #ideas li {
-  padding-top: 10px;
-}
-p {
-  font-size: 1.15em;
-  font-weight: 400;
-  padding-top: 10px;
-  line-height: 1.6;
+  background: url('../images/cgjung.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.4;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  position: absolute;
 }
 
 .ideas-right {
@@ -206,6 +202,38 @@ p {
   flex-grow: 1;
 }
 
+/* Children of bio and ideas sections sharing similar style */
+#bio h2,
+#ideas h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#ideas h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#bio ul,
+#ideas ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+#bio li,
+#ideas li {
+  padding-top: 10px;
+}
+
+p {
+  font-size: 1.15em;
+  font-weight: 400;
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+/* Read more buttons */
 .link-btn {
   padding: 10px;
   background-color: #ececf1;
@@ -219,17 +247,19 @@ p {
 
 /*Resources section */
 #resources {
-  background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff );
+  background-image: linear-gradient(to right, rgba(38, 65, 67, 0.25), #fff);
   overflow: hidden;
   height: 600px;
   width: 100%;
   padding-top: 15px;
   position: relative;
 }
+
 #resources h2 {
   text-align: center;
   padding-top: 45px;
 }
+
 .resource-left {
   overflow: hidden;
   float: left;
@@ -237,6 +267,7 @@ p {
   height: 100%;
   padding: 30px 20px 10px 150px;
 }
+
 .resource-left h3 {
   padding-top: 10px;
   font-size: 1.5em;
@@ -247,37 +278,42 @@ p {
   padding-top: 10px;
   margin-bottom: 30px;
 }
+
 .resource-left li {
   padding-top: 20px;
   font-size: 1.5em;
 }
 
 .resource-left a.link-btn {
-    color: #006e1e;
+  color: #006e1e;
 }
+
 .resource-right {
   padding: 30px 75px 10px 0;
   width: 49%;
   float: right;
   flex-grow: 1;
 }
+
 .resource-right iframe {
   display: inline-block;
   border: 0;
   margin: 0 auto;
   padding-top: 20px;
 }
+
 .link-btn:hover {
   transition: ease-in 150ms;
   cursor: pointer;
   background-color: #006e1e;
-  color: #ffffff;
-}
-.resource-left a.link-btn:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
-/* Contact */
+.resource-left a.link-btn:hover {
+  color: #fff;
+}
+
+/* Contact us section */
 #contact {
   background: url('../images/carl-jung.jpg') no-repeat center center;
   background-size: cover;
@@ -291,11 +327,13 @@ p {
 #contact-form h2 {
   padding: 30px 20px;
 }
-#contact-form h2, 
+
+#contact-form h2,
 #contact-form h3 {
   color: #f5f5f5;
   text-align: center;
 }
+
 #contact-form {
   background-color: rgba(0, 110, 30, 0.4);
   margin: 0 auto;
@@ -352,8 +390,9 @@ textarea {
   cursor: pointer;
 }
 
+/* Footer section */
 footer {
- background-color: #3a3a3a;
+  background-color: #3a3a3a;
   color: white;
   text-align: center;
   margin-bottom: 0;
@@ -382,7 +421,7 @@ i {
   margin-left: 10px;
 }
 
-/**** Article about page ***/
+/**** Article sections of about, ideas and resources pages ***/
 .article {
   height: fit-content;
   width: 75%;
@@ -405,19 +444,25 @@ i {
   margin-left: 20px;
   font-size: 1.15em;
 }
+
 .article h2 {
   text-align: center;
   padding: 20px;
 }
+
+/* anchor tags inside articles should standout to show they are clickable */
+.ideas-right a:nth-child(1),
 .article a,
 .resource-left a {
   color: rgb(83, 83, 216);
 }
+
 .article a:hover,
 .resource-left a:hover {
   color: lightsalmon;
 }
 
+/* Make quote in ideas page noticeable */
 blockquote {
   display: block;
   background-color: rgba(0, 110, 30, 0.2);
@@ -430,14 +475,18 @@ blockquote {
   box-shadow: 2px 4px 8px 2px rgb(0 0 0 / 30%);
   transition: 0.3s;
 }
-blockquote :nth-child(1){
+
+blockquote :nth-child(1) {
   font-size: 1.55em;
   padding: 10px;
   font-style: italic;
 }
-blockquote :nth-child(2){
+
+blockquote :nth-child(2) {
   padding-left: 30px;
 }
+
+/* Articles in the resources page */
 .subarticle hr {
   width: 100%;
   height: 2px;
@@ -446,6 +495,7 @@ blockquote :nth-child(2){
   background-color: lightsalmon;
   opacity: 0.5;
 }
+
 .subarticle {
   background-color: rgba(0, 110, 30, 0.2);
   width: 100%;
@@ -453,92 +503,104 @@ blockquote :nth-child(2){
   transition: 0.3s;
   margin: 75px 20px;
 }
+
 .subarticle h2 {
   padding-top: 75px;
 }
-.subarticle p, 
-.subarticle h3, 
-.subarticle ul, 
+
+.subarticle p,
+.subarticle h3,
+.subarticle ul,
 .subarticle iframe {
   padding: 20px 30px;
   line-height: 1.6;
 }
+
 .subarticle li {
   line-height: 1.1em;
   padding-top: 15px;
 }
+
 #videos {
   text-align: center;
 }
 
- /* Media Queries */ 
+/* Media Queries to adjust content to small screen devices */
+/* Media queries for Tablets */
 
-/* For Tablets */
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   #bio {
     height: 100vh;
     padding-top: 75px;
   }
+
   #bio h2 {
     font-size: 1.2em;
   }
+
   .bio-left {
-  padding-left: 45px;
+    padding-left: 45px;
   }
 
-.bio-right img {
-  padding: 15px 20px 20px 15px;
+  .bio-right img {
+    padding: 15px 20px 20px 15px;
+  }
+
+  #ideas {
+    height: 100vh;
+    padding-top: 75px;
+  }
+
+  #ideas h2 {
+    font-size: 1.2em;
+  }
+
+  .ideas-right {
+    padding: 10px 45px 10px 10px;
+  }
+
+  #resources {
+    background-color: inherit;
+    overflow: hidden;
+    height: 75vh;
+    margin: 0 auto;
+  }
+
+  .resource-left {
+    float: left;
+    height: fit-content;
+    padding-left: 30px;
+    width: 35%;
+  }
+
+  .resource-left li {
+    font-size: 1.2em;
+  }
+
+  .resource-right {
+    text-align: center;
+    float: right;
+    width: auto;
+    padding: 10px 0;
+  }
+
+  #contact {
+    overflow: hidden;
+    height: 600px;
+  }
+
+  .article {
+    width: 100%;
+    padding: 45px 45px 75px;
+  }
 }
 
-#ideas {
-  height: 100vh;
-  padding-top: 75px;
-}
-#ideas h2 {
-  font-size: 1.2em;
-}
-.ideas-right {
-  padding: 10px 45px 10px 10px;
-}
-
-#resources {
-  background-color: inherit;
-  overflow: hidden;
-  height: 75vh;
-  margin: 0 auto;
-}
-
-.resource-left {
-  float: left;
-  height: fit-content;
-  padding-left: 30px;
-  width: 35%;
-}
-.resource-left li {
-  font-size: 1.2em;
-}
-.resource-right {
-  text-align: center;
-  float: right;
-  width: auto;
-  padding: 10px 0;
-}
-
-#contact {
-  overflow: hidden;
-  height: 600px;
-}
-.article {
-  width: 100%;
-  padding: 45px 45px 75px;
-}
-}
-
-/* For low resolution  Tablets, Ipads */
+/* Media quesries for low resolution  Tablets, Ipads */
 
 @media screen and (max-width: 767px) {
-  nav ul {
+
+  /* Hide menu */
+  #menu {
     display: none;
     width: 110px;
     float: left;
@@ -552,134 +614,160 @@ blockquote :nth-child(2){
     right: 0;
     top: 0;
   }
-  
+
   #hero {
     padding-top: 60px;
   }
 
+  /* Disable the display of hero text and call to action button */
   #hero-text {
     display: none;
   }
+
   #scroll-btn {
     display: none;
   }
-.bio-right {
-  display: none;
-}
-#bio {
-  background: url(/assets/images/fractal.jpeg) no-repeat center center;
-  background-size: cover;
-  opacity: 0.3;
- padding-top: 0;
- height: 100vh;
-}
-#bio a.link-btn {
-  background-color: #006e1e;
-  color: #fff;
-  border: lightsalmon 2px solid;
-}
-#bio a.link-btn:hover {
-  background-color: #ececf1;
-  color: #006e1e;
-}
-.bio-left {
-  background-color: rgba(0, 110, 30, 0.9);
-  color: #fff;
-  width: 100%;
-  font-size: 130%;
-}
-#ideas {
-  padding-top: 0;
-  height: 100vh;
-  font-size: 130%;
-}
-.ideas-left {
-  display: none;
-}
-.ideas-right {
-  width: 100%;
-  padding: 20px 30px;
-}
-#resources {
-  padding-top: 0;
-  height: fit-content;
-}
-#resources h2 {
-  display: none;
-}
 
-.resource-left {
-  padding-left: 75px;
-  width: 100%;
-  height: fit-content;
-}
-.resource-right {
-  width: 100%;
-  overflow: hidden;
-}
-.resource-right iframe {
-  height: 100%;
-}
-.subarticle hr {
+  .bio-right {
     display: none;
   }
+
+  /* Put the fractal image as a background to the bio section */
+  #bio {
+    background: url(/assets/images/fractal.jpeg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.3;
+    padding-top: 0;
+    height: 100vh;
+  }
+
+  #bio a.link-btn {
+    background-color: #006e1e;
+    color: #fff;
+    border: lightsalmon 2px solid;
+  }
+
+  #bio a.link-btn:hover {
+    background-color: #ececf1;
+    color: #006e1e;
+  }
+
+  .bio-left {
+    background-color: rgba(0, 110, 30, 0.9);
+    color: #fff;
+    width: 100%;
+    font-size: 130%;
+  }
+
+  #ideas {
+    padding-top: 0;
+    height: 100vh;
+    font-size: 130%;
+  }
+
+  .ideas-left {
+    display: none;
+  }
+
+  .ideas-right {
+    width: 100%;
+    padding: 20px 30px;
+  }
+
+  #resources {
+    padding-top: 0;
+    height: fit-content;
+  }
+
+  #resources h2 {
+    display: none;
+  }
+
+  .resource-left {
+    padding-left: 75px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .resource-right {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .resource-right iframe {
+    height: 100%;
+  }
+
+  .subarticle hr {
+    display: none;
+  }
+
   .link-btn {
     font-size: 0.8em;
   }
-iframe {
-  width: 60%;
-  height: 80%;
-}
+
+  iframe {
+    width: 60%;
+    height: 80%;
+  }
+
   #contact {
     padding-top: 20px;
   }
+
   #contact-form {
     width: 90%;
-}
+  }
+
   #contact-form h2 {
-  padding: 10px;
-}
+    padding: 10px;
+  }
 
-form {
-  padding: 30px;
-}
+  form {
+    padding: 30px;
+  }
 
-form label {
-  font-size: 1.125em;
-}
+  form label {
+    font-size: 1.125em;
+  }
 }
 
 /* For Mobile Devices */
 
 @media (max-width: 480px) {
-  nav ul {
-    float: none;
-  } 
+
   p {
     font-size: 1.125em;
     padding-top: 0;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     letter-spacing: 0;
     padding: 0;
     font-size: 1.15em;
   }
 
-  #bio, #ideas {
+  #bio,
+  #ideas {
     padding-top: 0;
     height: fit-content;
   }
-.bio-left {
-  padding-bottom: 30px;
-}
-  #bio p, #ideas p {
+
+  .bio-left {
+    padding-bottom: 30px;
+  }
+
+  #bio p,
+  #ideas p {
     padding-top: 0;
   }
+
   button {
     margin: 0 auto;
     font-size: 1.15em;
   }
+
   #resources h2 {
     font-size: 0.985em;
   }
@@ -691,29 +779,32 @@ form label {
   #contact {
     padding-top: 20px;
   }
+
   #contact-form {
     width: 90%;
-}
+  }
+
   #contact-form h2 {
-  padding: 10px;
-}
+    padding: 10px;
+  }
 
-form {
-  padding: 30px;
-}
+  form {
+    padding: 30px;
+  }
 
-form label {
-  font-size: 1.125em;
-}
-footer {
-  font-size: small;
-}
+  form label {
+    font-size: 1.125em;
+  }
 
-#social-icons {
-  font-size: small;
-}
+  footer {
+    font-size: small;
+  }
 
-#social-icons li {
-  padding-right: 20px;
-}
+  #social-icons {
+    font-size: small;
+  }
+
+  #social-icons li {
+    padding-right: 20px;
+  }
 }
