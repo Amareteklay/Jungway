@@ -477,8 +477,11 @@ blockquote :nth-child(2){
 
 @media screen and (max-width: 1024px){
   #bio {
-    height: 75vh;
-    padding-top: 90px;
+    height: 100vh;
+    padding-top: 75px;
+  }
+  #bio h2 {
+    font-size: 1.2em;
   }
   .bio-left {
   padding-left: 45px;
@@ -489,25 +492,27 @@ blockquote :nth-child(2){
 }
 
 #ideas {
-  height: 75vh;
-  padding-top: 90px;
+  height: 100vh;
+  padding-top: 75px;
+}
+#ideas h2 {
+  font-size: 1.2em;
 }
 .ideas-right {
-  padding: 30px 45px 10px 10px;
+  padding: 10px 45px 10px 10px;
 }
 
 #resources {
   background-color: inherit;
   overflow: hidden;
-  padding-top: 45px;
-  height: 60vh;
+  height: 75vh;
   margin: 0 auto;
 }
 
 .resource-left {
   float: left;
-  padding-bottom: 30px;
-  padding-left: 45px;
+  height: fit-content;
+  padding-left: 30px;
   width: 35%;
 }
 .resource-left li {
@@ -515,14 +520,14 @@ blockquote :nth-child(2){
 }
 .resource-right {
   text-align: center;
-  float: none;
-  width: 100%;
+  float: right;
+  width: auto;
   padding: 10px 0;
 }
 
 #contact {
   overflow: hidden;
-  height: 60vh;
+  height: 600px;
 }
 .article {
   width: 100%;
@@ -566,7 +571,7 @@ blockquote :nth-child(2){
   background-size: cover;
   opacity: 0.3;
  padding-top: 0;
- height: 65vh;
+ height: 100vh;
 }
 #bio a.link-btn {
   background-color: #006e1e;
@@ -585,7 +590,7 @@ blockquote :nth-child(2){
 }
 #ideas {
   padding-top: 0;
-  height: 75vh;
+  height: 100vh;
   font-size: 130%;
 }
 .ideas-left {
@@ -628,7 +633,9 @@ iframe {
   #contact {
     padding-top: 20px;
   }
-
+  #contact-form {
+    width: 90%;
+}
   #contact-form h2 {
   padding: 10px;
 }
@@ -659,24 +666,20 @@ form label {
     font-size: 1.15em;
   }
 
-  #jung-bio, #jung-ideas {
+  #bio, #ideas {
     padding-top: 0;
-    width: 75%;
+    height: fit-content;
   }
-
-  #jung-bio p, #jung-ideas p {
+.bio-left {
+  padding-bottom: 30px;
+}
+  #bio p, #ideas p {
     padding-top: 0;
   }
-  
   button {
     margin: 0 auto;
     font-size: 1.15em;
   }
-
-  #resources {
-    margin-top: 150px;
-  }
-
   #resources h2 {
     font-size: 0.985em;
   }
@@ -688,7 +691,9 @@ form label {
   #contact {
     padding-top: 20px;
   }
-
+  #contact-form {
+    width: 90%;
+}
   #contact-form h2 {
   padding: 10px;
 }
