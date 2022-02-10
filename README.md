@@ -103,7 +103,7 @@ As the saying goes, 'first impression is last impression.' The hero section was 
 ### Accessibility
 I used both semantic HTML elements and different attributes to make the Jungway website accessible to users with different capabilities.
 * Jungway includes semantic HTML such as header, nav, section, article and footer.
-* Images and videos have descriptive alt attribute values.
+* Images and videos have descriptive alt and aria-label attribute values respectively.
 * Social icons with no text have aria-labels.
 * The choice of colors for text and background is such that it gives a reasonable color contrast in a consistent way.
 

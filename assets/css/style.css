@@ -61,11 +61,11 @@ nav h1 {
   height: 75px;
 }
 
-nav ul {
+#menu {
   font-size: 110%;
   letter-spacing: 1px;
   float: right;
-  margin-right: 350px;
+  margin-right: 150px;
 }
 
 nav ul li {
