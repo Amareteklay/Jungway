@@ -5,7 +5,7 @@ The rationale for Jungway is to introduce users to the Jungian way of understand
 
 Jungway is a sort of map with signposts of Jung’s brief bio, his key ideas, and for users who want to dig deeper, links to many resources online, including Jung's own works. Users can find lists of popular books as well as links to more accessible materials such as podcasts. 
 
-![Mockup](/assets/images/mock-up-responsive.jpg)
+![Mockup](/assets/images/mock-up-responsive.webp)
 
 [Jungway on Github pages](https://amareteklay.github.io/Jungway/)
 
@@ -57,17 +57,19 @@ Symbols are important in Jungian psychology.
 I have acknowledged the sources in the credit section. 
 
 ### Wireframes
-- [Desktop Layout](/assets/wireframes/desktop_layout.png)
+- [Desktop Layout](/assets/wireframes/desktop_layout.webp)
 
-- [Tablet Layout](/assets/wireframes/tablet_layout.png)
+- [Tablet Layout](/assets/wireframes/tablet_layout.webp)
 
-- [Mobile Layout](/assets/wireframes/mobile_layout.png)
+- [Mobile Layout](/assets/wireframes/mobile_layout.webp)
 
 ## Features
 ### Existing features
 Jungway has four separate pages, each linked to a menu item in the navigation bar at the top of each page. The Home, About, Ideas and Resources menu items are linked to their respective pages. Each page has a contact form below the page's content, and it can be accessed via the Contact Us menu item in the navigation bar.  
 
 The header consists of a logo besides the navigation. The logo is a text with nicely contrasting white and orange colors on a darkslategray background. A user can click the logo from any page and return to the home page.
+[Logo](assets/images/logo.webp)
+[Menu](assets/images/menu.webp)
 
 For consistency and to avoid unnecessary changes in the pages that grab the users' attention, the header, contact and footer sections are the same in all pages. The about and ideas pages have also similar design. The resources page has a slightly different background because it consists of content that could have presented in different pages. So the slight inconsistency there is for a reason.
 * Home page: the Home page consists of:
@@ -75,7 +77,7 @@ For consistency and to avoid unnecessary changes in the pages that grab the user
   * a hero image section with Jung's image, and a hero text as well as a call to action that inspire a user to learn more.
 As the saying goes, 'first impression is last impression.' The hero section was designed to compell the user to read more. 
 
-![Hero image and call to action](/assets/images/landing-page.jpg)  
+![Hero image and call to action](/assets/images/landing-page.webp)  
  * about section which gives users a brief introduction to Jung's bio with an invitation to read more in a separate page. When a user clicks on the call to action in the hero image section, the page scrolls to the about section. On the left of this section is a brief bio while on the right is a fractal image. 
  * a section for key ideas which is inteded to show small but interesting content and invite the user to dive deeper following a link to a dedicated page (ideas page). The pattern in the sections is that the image and text swap positions in a subsequent section. So the ideas are on the right while Jung's caricature (image chosed to depict that he engaged in deep thought, which matches the ideas) is on the left.
  * a resources section that has a video on the right (because the image in the above section is on the left.) A list of resource categories (Books, Videos, Podcasts and Training centers) is provided on the left side of the resources section. Each list item is linked to a section for the same category on the separate resources page. 
@@ -91,9 +93,11 @@ As the saying goes, 'first impression is last impression.' The hero section was 
  * Podcasts: links to podcasts point to the websites of the podcasts listed. The alternative would be to list episodes but that would create choice overload for the user. By linking the post popular podcasts on Jungian analysis, the user gets to choose the podcast they like first and then the episode(s).
  * Training centers: considering the diversity of the potential users of Jungway, many may be interested in getting certified to become Jungian analysts. Links to two training centers is provided: As these are external links, they open in new tabs.
 * Contact section:  this section appears both on the home page and all other pages. As users may want to send comments or questions that they have at any part of the website, the contact form is available to them all the time.
+[Contact form](assets/images/contact-form.webp)
 * The footer: is also visible in all pages. 
   * It displays social icons linked to different social media platforms which open in new tabs, and 
   * a copyright paragraph with link to the home page (or to the top if the user is already on the different sections of the home page.)
+  [Footer](assets/images/footer.webp)
 
 ### Future implementation
 * Use JavaScript to specify the URL for the form action. 
@@ -136,7 +140,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-[Shields.io](https://shields.io/) To add badges to the README
+[Online convert](https://www.online-convert.com/) to convert images to next gen after lighthose performance turned out to be poor because of some images in jpeg formats.
 
 ## Testing and validation
 

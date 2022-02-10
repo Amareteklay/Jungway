@@ -99,7 +99,7 @@ nav a.icon {
 }
 
 #hero-image {
-  background: url('../images/carl-jung.jpg') no-repeat center center;
+  background: url('../images/carl-jung.webp') no-repeat center center;
   background-size: cover;
   opacity: 0.8;
   height: 100%;
@@ -185,7 +185,7 @@ nav a.icon {
 }
 
 .ideas-left {
-  background: url('../images/cgjung.jpg') no-repeat center center;
+  background: url('../images/cgjung.webp') no-repeat center center;
   background-size: cover;
   opacity: 0.4;
   height: 100%;
@@ -315,7 +315,7 @@ p {
 
 /* Contact us section */
 #contact {
-  background: url('../images/carl-jung.jpg') no-repeat center center;
+  background: url('../images/carl-jung.webp') no-repeat center center;
   background-size: cover;
   height: 600px;
   width: 100%;
