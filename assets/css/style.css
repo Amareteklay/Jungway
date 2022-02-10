@@ -631,19 +631,9 @@ blockquote :nth-child(2) {
     display: none;
   }
 
-  /* Put the fractal image as a background to the bio section */
   #bio {
-    background: url(/assets/images/fractal.webp) no-repeat center center;
-    background-size: cover;
-    opacity: 0.3;
     padding-top: 0;
     height: 100vh;
-  }
-
-  #bio a.link-btn {
-    background-color: #006e1e;
-    color: #fff;
-    border: lightsalmon 2px solid;
   }
 
   #bio a.link-btn:hover {
@@ -652,16 +642,12 @@ blockquote :nth-child(2) {
   }
 
   .bio-left {
-    background-color: rgba(0, 110, 30, 0.9);
-    color: #fff;
     width: 100%;
-    font-size: 130%;
   }
 
   #ideas {
     padding-top: 0;
     height: 100vh;
-    font-size: 130%;
   }
 
   .ideas-left {
@@ -683,7 +669,7 @@ blockquote :nth-child(2) {
   }
 
   .resource-left {
-    padding-left: 75px;
+    padding-left: 45px;
     width: 100%;
     height: fit-content;
   }
