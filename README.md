@@ -44,7 +44,7 @@ The information for the website is selected and organized with the user in mind,
 ## Design
 
 ### Colors
-Jungway uses green color palette because [green stands for balance, nature, spring, and rebirth.](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.){:target="_blank"} That is the essence of Jungian psychology, individuation, rebirth at the psychological level. 
+Jungway uses green color palette because [green stands for balance, nature, spring, and rebirth.](https://www.sensationalcolor.com/meaning-of-green/#:~:text=Green%20stands%20for%20balance%2C%20nature,prosperity%2C%20freshness%2C%20and%20progress.) That is the essence of Jungian psychology, individuation, rebirth at the psychological level. 
 
 The orange color in the logo and favicon symbolizes joy, warmth and contentment. White font fits well on a green background, making user experience pleasant. 
 
@@ -73,9 +73,10 @@ I used figma to create the following wireframes.
 ### Existing features
 Jungway has four separate pages, each linked to a menu item in the navigation bar at the top of each page. The Home, About, Ideas and Resources menu items are linked to their respective pages. Each page has a contact form below the page's content, and it can be accessed via the Contact Us menu item in the navigation bar. (My mentor's input was crucial in making the links more intuitive.)
 
+![Logo](assets/images/logo.webp)
+
 The header consists of a logo besides the navigation. The logo is a text with nicely contrasting white and orange colors on a darkslategray background. A user can click the logo from any page and return to the home page.
 
-![Logo](assets/images/logo.webp)
 ![Navigation bar](assets/images/menu.webp)
 
 For consistency and to avoid unnecessary changes in the pages that grab the users' attention, the header, contact and footer sections are the same in all pages. The about and ideas pages have also similar design. The resources page has a slightly different background because it consists of content that could possibly have been presented in different pages. 
@@ -183,9 +184,13 @@ I used W3C to validate my HTML and the jigsaw W3C to validate my CSS code, and t
   
 ### Lighthouse report
 
-I have conducted lighthouse test and the performance, accessibility, best practices and SEO scores are well above 90 (see image below).
-[Lighthouse report desktop](/assets/images/lighthouse_report_desktop.webp)
-[Lighthouse report mobile](/assets/images/lighthouse_report_mobile.webp)
+I have conducted lighthouse test and the performance, accessibility, best practices and SEO scores are at least 90 (see image below).
+
+Lighthouse report on desktop version of Jungway:
+![Lighthouse report desktop](/assets/images/lighthouse_report_desktop.webp)
+
+Lighthouse report on mobile view of Jungway:
+![Lighthouse report mobile](/assets/images/lighthouse_report_mobile.webp)
 
 One caveate is that the embedded YouTube videos and other external services make the performance metrics unstable (though the variations are within acceptable range.) The anchor to the hamburger icon has particularly significant effect on the SEO metric.
 
@@ -212,11 +217,12 @@ I acknowledge and express my sincere gratitude to the following sources.
 - [Wikipedia articles](https://en.wikipedia.org/) on [Jung's life](Carl Jung), [Jungian archetypes](https://en.wikipedia.org/wiki/Jungian_archetypes), [Analytical psychology](https://en.wikipedia.org/wiki/Analytical_psychology) were important sources of content. 
 - [The definition of collective unconscious was taken from](https://www.google.com/search?q=what+is+collective+unconscious&oq=what+is+collective+unconscious+&aqs=chrome..69i57j0i20i263i512l2j0i512j0i22i30l6.9627j0j7&sourceid=chrome&ie=UTF-8)
 - I also either copied or rewrote content from: 
- * [Harley Therapy's page on Freud and Jung](https://www.harleytherapy.co.uk/counselling/freud-vs-jung-similarities-differences.htm)
- * [Simply Psychology](https://www.simplypsychology.org/carl-jung.html)
- * [Psychology Today](https://www.psychologytoday.com/intl/therapy-types/jungian-therapy)
- * [International Association for Analytical Psychology](https://iaap.org/what-is-analytical-psychology/)
- * [My Therapist](https://www.mytherapist.com/advice/psychology/what-is-carl-jung-depth-psychology/)
+
+  * [Harley Therapy's page on Freud and Jung](https://www.harleytherapy.co.uk/counselling/freud-vs-jung-similarities-differences.htm)
+  * [Simply Psychology](https://www.simplypsychology.org/carl-jung.html)
+  * [Psychology Today](https://www.psychologytoday.com/intl/therapy-types/jungian-therapy)
+  * [International Association for Analytical Psychology](https://iaap.org/what-is-analytical-psychology/)
+  * [My Therapist](https://www.mytherapist.com/advice/psychology/what-is-carl-jung-depth-psychology/)
 
 ### Media
 
@@ -226,7 +232,7 @@ I acknowledge and express my sincere gratitude to the following sources.
 
 ### Acknowledgements
 
-- My gratitude goes to Moosa Hassan, my mentor at [Code Institute](https://codeinstitute.net/). His tips and encouragement have been very helpful, and I am grateful to him particularly for pointing out that I could make the navigation less confusing, which I did. 
+- My gratitude goes to Moosa Hassan, my mentor at [Code Institute](https://codeinstitute.net/). His tips and encouragement have been very helpful, and I am grateful to him particularly for pointing out that I could make the navigation less confusing, which I did, and the UX is now better. 
 - Many thanks to my friend, Selam, for her valuable comments on the color and layout design.
 
 ### Disclaimer
